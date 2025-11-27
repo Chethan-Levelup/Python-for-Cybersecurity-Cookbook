@@ -29,7 +29,6 @@ class NmapDiscovery:
         """
         nmap = nmap3.NmapHostDiscovery()
 
-        nmap.nma
 
         scan_results = nmap.nmap_arp_discovery(host)
         print(json.dumps(scan_results, indent=4))
